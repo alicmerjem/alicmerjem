@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hi, my name is Merjem Alić. I am a 20 year old student majoring in Information Technologies at International Burch University.<br><br>
+👋 Hi, my name is Merjem Alić. I am a 21 year old Software Engineering student studying at International Burch University.<br><br>
 
 
 # 💻 Tech Stack:
