@@ -1,0 +1,80 @@
+<svg width="900" height="290" viewBox="0 0 900 290" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill: #14141f; stroke: #2a2a45; stroke-width: 1; }
+      .title { font: 700 18px 'Segoe UI', Ubuntu, sans-serif; fill: #ffffff; }
+      .stat-label { font: 400 13px 'Segoe UI', Ubuntu, sans-serif; fill: #9aa4c7; }
+      .stat-value { font: 700 22px 'Segoe UI', Ubuntu, sans-serif; fill: #00f5d4; }
+      .lang-name { font: 600 13px 'Segoe UI', Ubuntu, sans-serif; fill: #cfd8ff; }
+      .lang-pct { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #8fa3ff; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="430" height="290" rx="12" class="card"/>
+  <text x="20" y="30" class="title">Top Languages</text>
+  <g transform="translate(20, 30)">
+    
+        <text x="0" y="54" class="lang-name">JavaScript</text>
+        <text x="300" y="54" text-anchor="end" class="lang-pct">64.8%</text>
+        <rect x="0" y="60" width="300" height="10" rx="5" fill="#2a2a45"/>
+        <rect x="0" y="60" width="194.49175578947364" height="10" rx="5" fill="#f1e05a">
+          <animate attributeName="width" from="0" to="194.49175578947364" dur="1s" fill="freeze"/>
+        </rect>
+      
+
+        <text x="0" y="84" class="lang-name">Kotlin</text>
+        <text x="300" y="84" text-anchor="end" class="lang-pct">11.0%</text>
+        <rect x="0" y="90" width="300" height="10" rx="5" fill="#2a2a45"/>
+        <rect x="0" y="90" width="32.939924210526314" height="10" rx="5" fill="#A97BFF">
+          <animate attributeName="width" from="0" to="32.939924210526314" dur="1s" fill="freeze"/>
+        </rect>
+      
+
+        <text x="0" y="114" class="lang-name">PHP</text>
+        <text x="300" y="114" text-anchor="end" class="lang-pct">9.5%</text>
+        <rect x="0" y="120" width="300" height="10" rx="5" fill="#2a2a45"/>
+        <rect x="0" y="120" width="28.482896842105262" height="10" rx="5" fill="#4F5D95">
+          <animate attributeName="width" from="0" to="28.482896842105262" dur="1s" fill="freeze"/>
+        </rect>
+      
+
+        <text x="0" y="144" class="lang-name">Java</text>
+        <text x="300" y="144" text-anchor="end" class="lang-pct">8.0%</text>
+        <rect x="0" y="150" width="300" height="10" rx="5" fill="#2a2a45"/>
+        <rect x="0" y="150" width="23.890054736842107" height="10" rx="5" fill="#b07219">
+          <animate attributeName="width" from="0" to="23.890054736842107" dur="1s" fill="freeze"/>
+        </rect>
+      
+
+        <text x="0" y="174" class="lang-name">Python</text>
+        <text x="300" y="174" text-anchor="end" class="lang-pct">5.4%</text>
+        <rect x="0" y="180" width="300" height="10" rx="5" fill="#2a2a45"/>
+        <rect x="0" y="180" width="16.08757894736842" height="10" rx="5" fill="#3572A5">
+          <animate attributeName="width" from="0" to="16.08757894736842" dur="1s" fill="freeze"/>
+        </rect>
+      
+
+        <text x="0" y="204" class="lang-name">Shell</text>
+        <text x="300" y="204" text-anchor="end" class="lang-pct">0.6%</text>
+        <rect x="0" y="210" width="300" height="10" rx="5" fill="#2a2a45"/>
+        <rect x="0" y="210" width="4" height="10" rx="5" fill="#89e051">
+          <animate attributeName="width" from="0" to="4" dur="1s" fill="freeze"/>
+        </rect>
+      
+  </g>
+
+  <rect x="450" y="0" width="450" height="290" rx="12" class="card"/>
+  <text x="470" y="30" class="title">GitHub Stats</text>
+
+  <text x="470" y="70" class="stat-label">Total Contributions</text>
+  <text x="470" y="95" class="stat-value">243</text>
+
+  <text x="470" y="130" class="stat-label">Current Streak</text>
+  <text x="470" y="155" class="stat-value">1 day</text>
+
+  <text x="700" y="70" class="stat-label">Public Repos</text>
+  <text x="700" y="95" class="stat-value">14</text>
+
+  <text x="700" y="130" class="stat-label">Total Stars</text>
+  <text x="700" y="155" class="stat-value">1</text>
+</svg>
