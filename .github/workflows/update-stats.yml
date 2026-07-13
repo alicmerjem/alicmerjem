@@ -1,0 +1,41 @@
+name: Update README stats
+
+on:
+  schedule:
+    # Runs once a day at 03:00 UTC. Change the cron if you want a different cadence.
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate stats SVG
+        env:
+          GH_USERNAME: alicmerjem
+          # Uses a personal access token stored as a repo secret (see README setup notes).
+          # Falls back to the default token, but a PAT is recommended for full contribution data.
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          EXCLUDE_LANGUAGES: "HTML,CSS"
+        run: node scripts/generate-stats.js
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git diff --staged --quiet || git commit -m "chore: refresh stats"
+          git push

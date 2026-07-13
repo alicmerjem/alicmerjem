@@ -1,0 +1,43 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29">
+        <animate attributeName="stop-color" values="#0f0c29;#302b63;#24243e;#0f0c29" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#302b63">
+        <animate attributeName="stop-color" values="#302b63;#24243e;#0f0c29;#302b63" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#24243e">
+        <animate attributeName="stop-color" values="#24243e;#0f0c29;#302b63;#24243e" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4"/>
+      <stop offset="50%" stop-color="#00bbf9"/>
+      <stop offset="100%" stop-color="#9b5de5"/>
+    </linearGradient>
+    <style>
+      .name { font: 700 46px 'Segoe UI', Ubuntu, sans-serif; fill: url(#text-grad); }
+      .tagline { font: 400 20px 'Segoe UI', Ubuntu, sans-serif; fill: #cfd8ff; }
+      .cursor { fill: #00f5d4; }
+    </style>
+  </defs>
+
+  <rect width="900" height="220" rx="14" fill="url(#bg)"/>
+
+  <text x="50" y="95" class="name">Merjem Alić</text>
+
+  <text x="50" y="140" class="tagline">
+    <tspan>Software Engineering Student · Low-Level Systems &amp; Backend AI</tspan>
+  </text>
+
+  <g>
+    <text x="50" y="175" font-family="Consolas, monospace" font-size="16" fill="#8fa3ff">
+      <animate attributeName="opacity" values="1;1" dur="1s"/>
+      building things close to the metal, one segfault at a time
+    </text>
+    <rect class="cursor" x="565" y="162" width="9" height="18">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
