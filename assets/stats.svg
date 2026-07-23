@@ -70,7 +70,7 @@
   <text x="470" y="95" class="stat-value">257</text>
 
   <text x="470" y="130" class="stat-label">Current Streak</text>
-  <text x="470" y="155" class="stat-value">6 days</text>
+  <text x="470" y="155" class="stat-value">0 days</text>
 
   <text x="700" y="70" class="stat-label">Public Repos</text>
   <text x="700" y="95" class="stat-value">13</text>
