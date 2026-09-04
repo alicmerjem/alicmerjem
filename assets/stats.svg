@@ -15,50 +15,50 @@
   <g transform="translate(20, 30)">
     
         <text x="0" y="54" class="lang-name">JavaScript</text>
-        <text x="300" y="54" text-anchor="end" class="lang-pct">65.8%</text>
+        <text x="300" y="54" text-anchor="end" class="lang-pct">55.3%</text>
         <rect x="0" y="60" width="300" height="10" rx="5" fill="#2a2a45"/>
-        <rect x="0" y="60" width="197.42761178586778" height="10" rx="5" fill="#f1e05a">
-          <animate attributeName="width" from="0" to="197.42761178586778" dur="1s" fill="freeze"/>
+        <rect x="0" y="60" width="165.9264183927826" height="10" rx="5" fill="#f1e05a">
+          <animate attributeName="width" from="0" to="165.9264183927826" dur="1s" fill="freeze"/>
         </rect>
       
 
-        <text x="0" y="84" class="lang-name">Kotlin</text>
-        <text x="300" y="84" text-anchor="end" class="lang-pct">10.8%</text>
+        <text x="0" y="84" class="lang-name">Makefile</text>
+        <text x="300" y="84" text-anchor="end" class="lang-pct">11.3%</text>
         <rect x="0" y="90" width="300" height="10" rx="5" fill="#2a2a45"/>
-        <rect x="0" y="90" width="32.43023829611118" height="10" rx="5" fill="#A97BFF">
-          <animate attributeName="width" from="0" to="32.43023829611118" dur="1s" fill="freeze"/>
+        <rect x="0" y="90" width="33.83980432925426" height="10" rx="5" fill="#8fa3ff">
+          <animate attributeName="width" from="0" to="33.83980432925426" dur="1s" fill="freeze"/>
         </rect>
       
 
-        <text x="0" y="114" class="lang-name">PHP</text>
-        <text x="300" y="114" text-anchor="end" class="lang-pct">9.3%</text>
+        <text x="0" y="114" class="lang-name">Kotlin</text>
+        <text x="300" y="114" text-anchor="end" class="lang-pct">9.1%</text>
         <rect x="0" y="120" width="300" height="10" rx="5" fill="#2a2a45"/>
-        <rect x="0" y="120" width="28.04217538721128" height="10" rx="5" fill="#4F5D95">
-          <animate attributeName="width" from="0" to="28.04217538721128" dur="1s" fill="freeze"/>
+        <rect x="0" y="120" width="27.248121004679447" height="10" rx="5" fill="#A97BFF">
+          <animate attributeName="width" from="0" to="27.248121004679447" dur="1s" fill="freeze"/>
         </rect>
       
 
-        <text x="0" y="144" class="lang-name">Java</text>
-        <text x="300" y="144" text-anchor="end" class="lang-pct">7.8%</text>
+        <text x="0" y="144" class="lang-name">PHP</text>
+        <text x="300" y="144" text-anchor="end" class="lang-pct">7.9%</text>
         <rect x="0" y="150" width="300" height="10" rx="5" fill="#2a2a45"/>
-        <rect x="0" y="150" width="23.520399229556997" height="10" rx="5" fill="#b07219">
-          <animate attributeName="width" from="0" to="23.520399229556997" dur="1s" fill="freeze"/>
+        <rect x="0" y="150" width="23.56123877994453" height="10" rx="5" fill="#4F5D95">
+          <animate attributeName="width" from="0" to="23.56123877994453" dur="1s" fill="freeze"/>
         </rect>
       
 
-        <text x="0" y="174" class="lang-name">Python</text>
-        <text x="300" y="174" text-anchor="end" class="lang-pct">4.8%</text>
+        <text x="0" y="174" class="lang-name">Java</text>
+        <text x="300" y="174" text-anchor="end" class="lang-pct">6.6%</text>
         <rect x="0" y="180" width="300" height="10" rx="5" fill="#2a2a45"/>
-        <rect x="0" y="180" width="14.535346460578468" height="10" rx="5" fill="#3572A5">
-          <animate attributeName="width" from="0" to="14.535346460578468" dur="1s" fill="freeze"/>
+        <rect x="0" y="180" width="19.762009715549617" height="10" rx="5" fill="#b07219">
+          <animate attributeName="width" from="0" to="19.762009715549617" dur="1s" fill="freeze"/>
         </rect>
       
 
-        <text x="0" y="204" class="lang-name">Shell</text>
-        <text x="300" y="204" text-anchor="end" class="lang-pct">0.6%</text>
+        <text x="0" y="204" class="lang-name">Python</text>
+        <text x="300" y="204" text-anchor="end" class="lang-pct">4.1%</text>
         <rect x="0" y="210" width="300" height="10" rx="5" fill="#2a2a45"/>
-        <rect x="0" y="210" width="4" height="10" rx="5" fill="#89e051">
-          <animate attributeName="width" from="0" to="4" dur="1s" fill="freeze"/>
+        <rect x="0" y="210" width="12.21270332911104" height="10" rx="5" fill="#3572A5">
+          <animate attributeName="width" from="0" to="12.21270332911104" dur="1s" fill="freeze"/>
         </rect>
       
   </g>
@@ -67,13 +67,13 @@
   <text x="470" y="30" class="title">GitHub Stats</text>
 
   <text x="470" y="70" class="stat-label">Total Contributions</text>
-  <text x="470" y="95" class="stat-value">349</text>
+  <text x="470" y="95" class="stat-value">356</text>
 
   <text x="470" y="130" class="stat-label">Current Streak</text>
-  <text x="470" y="155" class="stat-value">2 days</text>
+  <text x="470" y="155" class="stat-value">3 days</text>
 
   <text x="700" y="70" class="stat-label">Public Repos</text>
-  <text x="700" y="95" class="stat-value">14</text>
+  <text x="700" y="95" class="stat-value">15</text>
 
   <text x="700" y="130" class="stat-label">Total Stars</text>
   <text x="700" y="155" class="stat-value">2</text>
